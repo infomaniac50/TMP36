@@ -1,0 +1,8 @@
+TMP36 Interface Library
+Derek Chafin
+September 14, 2011
+Public Domain Code
+
+An arduino library to read the TMP36 analog temperature sensor from adafruit.com
+
+The library takes the raw input from the sensor and outputs the temperature in Celsius and Farenheight.
