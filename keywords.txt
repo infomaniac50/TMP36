@@ -1,0 +1,4 @@
+TMP36	KEYWORD1
+update	KEYWORD2
+getCelsius	KEYWORD2
+getFahrenheit	KEYWORD2
