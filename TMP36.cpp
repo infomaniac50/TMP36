@@ -32,7 +32,7 @@ float TMP36::getCelsius()
   return _tempc;
 }
 
-float TMP36::getFarenheight()
+float TMP36::getFahrenheit()
 {
   return _tempf;
 }

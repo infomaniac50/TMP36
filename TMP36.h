@@ -15,7 +15,7 @@ class TMP36
     TMP36(int tpin, float aref);
     void update();
     float getCelsius();
-    float getFarenheight();
+    float getFahrenheit();
   private:
     int _tpin;
     float _aref;      
