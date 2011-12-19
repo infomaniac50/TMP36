@@ -4,7 +4,6 @@
   Released into the public domain.
 */
 
-#include "WProgram.h"
 #include "TMP36.h"
 
 TMP36::TMP36(int tpin, float aref)

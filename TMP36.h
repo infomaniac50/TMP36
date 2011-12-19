@@ -7,7 +7,11 @@
 #ifndef TMP36_h
 #define TMP36_h
 
-#include "WProgram.h"
+#if (ARDUINO >= 100)
+ #include "Arduino.h"
+#else
+ #include "WProgram.h"
+#endif
 
 class TMP36
 {
