@@ -1,4 +1,4 @@
-/*
+	/*
   TMP36.cpp - Library for reading the TMP36 temperature sensor
   Created by Derek Chafin, September 14, 2011
   Released into the public domain.
@@ -17,11 +17,11 @@ void TMP36::update()
   int reading = analogRead(_tpin);
   
   float voltage = reading * _aref;
-  voltage /= 1024.0;
+  voltage /= 10.24;
   
   //converting from 10 mv per degree with 500 mV offset
-  //to degrees ((volatge - 500mV) times 100)
-  _tempc = (voltage - 0.5) * 100 ;  
+  //to degrees (volatge - 500mV)
+  _tempc = voltage - 50 ;  
   // now convert to Fahrenheight
   _tempf = (_tempc * 9.0 / 5.0) + 32.0;   
 }
